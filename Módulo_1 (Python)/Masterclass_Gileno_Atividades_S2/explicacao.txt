@@ -1,0 +1,5 @@
+Na primeira semana de atividades 
+
+Laço (for)
+Operadoes aritméticos nas funções
+Aprendemos como funciona os (int()) - (float()) - (str()) nos (input())

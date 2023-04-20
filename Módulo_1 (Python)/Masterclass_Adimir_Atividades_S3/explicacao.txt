@@ -1,0 +1,9 @@
+Na terceia semana de atividades do curso de Python da Ultima.School.
+
+Aprenderemos funções (def) com as atividades
+
+Como ciar e chamar uma função
+Para que serve uma função 
+Usamos também If - Else 
+Operadores de laço como (for, while...)
+
