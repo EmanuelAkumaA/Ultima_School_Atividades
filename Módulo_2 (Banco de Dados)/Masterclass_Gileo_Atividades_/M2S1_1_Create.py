@@ -1,3 +1,6 @@
+#CIANDO UMA TABELA 
+
+
 # importa a pasta SQL  para dentro do python
 import sqlite3
 
@@ -6,7 +9,7 @@ conexao = sqlite3.connect('atividade_db.sqlite3')
 # Cursor para executar comandos SQL, tanto os DML como os DDL 
 cursor = conexao.cursor()
 ############################################################
-sql = """   CREATE TABLE funcionaeios (
+sql = """   CREATE TABLE funcionarios (
             id INT PRIMARY KEY NOT NULL,
             nome TEXT NOT NULL,
             cpf VARCHAR(11) NOT NULL,
