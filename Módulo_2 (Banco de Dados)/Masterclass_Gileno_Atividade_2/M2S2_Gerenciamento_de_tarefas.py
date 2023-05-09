@@ -9,7 +9,7 @@ sql = """   CREATE TABLE categorias (
                 ); """
 
 cursor.execute(sql)
-conexao.commit
+conexao.commit()
 
 sql = """    CREATE TABLE tarefas (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -21,7 +21,7 @@ sql = """    CREATE TABLE tarefas (
                 ); """
 
 cursor.execute(sql)
-conexao.commit
+conexao.commit()
 
 sql = """    CREATE TABLE status (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -30,5 +30,5 @@ sql = """    CREATE TABLE status (
       """
 
 cursor.execute(sql)
-conexao.commit
+conexao.commit()
 conexao.close()
